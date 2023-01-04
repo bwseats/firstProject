@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">first project</a>
+                <a class="navbar-brand" href="/index.html">first project</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                             <a class="nav-link" href="/simple.html">simple</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/myhero.html">hero</a>
+                            <a class="nav-link" href="/profiles.html">heroes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/marvel.html">marvel</a>
@@ -43,24 +43,28 @@
 
     <main class="content">
         <div class="container mt-3">
-            <img src="/img/Marvel_Logo.png" class="logoImage"/>
-            <h1><b>Welcome to my Marvel "fan" page</b></h1>
-            <h2>What I know about Marvel:              </h2>
+            <img src="/img/Marvel_Logo.png" class="logoImage" />
+            <h1><b>Welcome to my Marvel fanpage!</b></h1>
+            <h2>Some facts about Marvel: </h2>
             <p>
-                Marvel Comics is an American comic book publisher and the flagship property of Marvel Entertainment, a division of The Walt Disney Company since September 1, 2009. Evolving from Timely Comics in 1939, Magazine Management/Atlas Comics in 1951 and its predecessor, Marvel Mystery Comics, the Marvel Comics title/name/brand was first used in June 1961.
+                Marvel Comics is an American comic book publisher and the flagship property of Marvel Entertainment, a
+                division of The Walt Disney Company since September 1, 2009. Evolving from Timely Comics in 1939,
+                Magazine Management/Atlas Comics in 1951 and its predecessor, Marvel Mystery Comics, the Marvel Comics
+                title/name/brand was first used in June 1961.
             </p>
             <p>
-                Marvel was started in 1939 by Martin Goodman as Timely Comics,
-                and by 1951 had generally become known as Atlas Comics.
-                The Marvel era began in June 1961 with the launch of
-                The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years and decades, was solidified as the company's primary brand.</p>
+                Marvel was started in 1939 by Martin Goodman as Timely Comics, and by 1951 had generally become known as
+                Atlas Comics. The Marvel era began in June 1961 with the launch of The Fantastic Four and other
+                superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which
+                had been used over the years and decades, was solidified as the company's primary brand.</p>
             <h2 id="herotext">List of Heroes:</h2>
             <table>
                 <tr class="tableHeader">
                     <th>Superhero</th>
-                    <th>Alter Ego</th>
+                    <th width="20%">Alter Ego</th>
                     <th>Powers</th>
                     <th>Picture</th>
+                    <th>Profile</th>
                 </tr>
                 <tr class="oddRow">
                     <td>Spiderman</td>
@@ -69,13 +73,26 @@
                     <td>
                         <img class="heroImage" src="/img/spidey.jpeg" />
                     </td>
+                    <td><button 
+                            type="button"
+                            class="btn btn-danger"
+                            onclick="window.location.href='/spiderman.html'">
+                            View Profile
+                        </button>
+                    </td>
                 </tr>
                 <tr class="evenRow">
                     <td>Power Man</td>
                     <td>Luke Cage</td>
                     <td>Unbreakable skin, super strength</td>
                     <td>
-                        <img class="heroImage" src="/img/lukecage.png"
+                        <img class="heroImage" src="/img/lukecage.png" </td>
+                    <td><button 
+                            type="button"
+                            class="btn btn-danger"
+                            onclick="window.location.href='/powerman.html'">
+                            View Profile
+                        </button>
                     </td>
                 </tr>
                 <tr class="oddRow">
@@ -83,7 +100,14 @@
                     <td>Tony Stark</td>
                     <td>Billionaire, inventor, genius</td>
                     <td>
-                        <img class="heroImage" src="/img/ironman-bleeding-edge.jpg"
+                        <img class="heroImage" src="/img/ironman-bleeding-edge.jpg" </td>
+                    <td>
+                        <button 
+                            type="button"
+                            class="btn btn-danger"
+                            onclick="window.location.href='/ironman.html'">
+                            View Profile
+                        </button>
                     </td>
                 </tr>
                 <tr class="evenRow">
@@ -91,7 +115,14 @@
                     <td>Steve Rogers</td>
                     <td>Super soldier, super strength, cool shield</td>
                     <td>
-                        <img class="heroImage" src="/img/ClassicCap.png"
+                        <img class="heroImage" src="/img/ClassicCap.png" </td>
+                    <td>
+                        <button 
+                            type="button"
+                            class="btn btn-danger"
+                            onclick="window.location.href='/ironman.html'">
+                            View Profile
+                        </button>
                     </td>
                 </tr>
             </table>
@@ -100,7 +131,7 @@
 
     <footer class="footer">
         <div class="container-fluid bg-dark text-light text-center py-2">
-            benjiwyattx@gmail.com
+            benjamin seats | benjiwyattx@gmail.com
         </div>
     </footer>
 
