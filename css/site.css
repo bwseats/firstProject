@@ -7,6 +7,32 @@ body {
     flex-direction: column;
 }
 
+.minHeight {
+    min-height: 85vh;
+}
+
+.heroText {
+    font-family: 'Righteous', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.bgimage {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/crt.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 /*-- stretch box vertically as much as possible --*/
 .content {
     flex: 1 0 auto;
@@ -14,6 +40,13 @@ body {
 
 .footer {
     flex-shrink: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /*-- END STICKY FOOTER --*/
